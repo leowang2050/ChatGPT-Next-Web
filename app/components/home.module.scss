@@ -138,6 +138,14 @@
   font-weight: bold;
   animation: slide-in ease 0.3s;
 }
+
+.gptaccount {
+      flex-grow: 1;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
 .gptaccount a:link {
 padding:4px;
 color:#FF0000;
