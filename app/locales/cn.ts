@@ -4,7 +4,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "您未设置API-KEY，请前往[设置](/#/settings)页输入正确的API-key，可在左上角购买 API KEY或者填入你自己已有的 OpenAI API Key，您也可关注公众号：[AI迈森](https://daili.chatgpt365.life/)，回复:  apikey  ，将免费获取一个APIKEY！",
+      "前往公众号：**[AI迈森](https://daili.chatgpt365.life/)**，回复  **apikey**  ，将免费获取一个APIKEY，然后点击左下角[设置](/#/settings)页输入API-key即可正常**对话！**
+可在左上角购买 API KEY或者填入你自己已有的 OpenAI API Key，您也可关注",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -169,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗？前往公众号：**[我的公众号]",
+    BotHello: "您好，我是您的AI助手，有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
