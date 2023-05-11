@@ -136,7 +136,7 @@ const cn = {
     Token: {
       Title: "API Key",
       SubTitle: "在右侧输入您的 API Key 即可对话",
-      Placeholder: "OpenAI API Key",
+      Placeholder: "请输入OpenAI API Key",
     },
 
     Usage: {
@@ -149,9 +149,9 @@ const cn = {
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
-      Title: "管理员专用",
-      SubTitle: "管理员专用，无须使用",
-      Placeholder: "管理员专用，请勿使用",
+      Title: "VIP会员专用",
+      SubTitle: "联系站长升级VIP会员，微信：wuyoukaoba",
+      Placeholder: "请输入VIP会员专用APIKEY",
     },
     Model: "模型 (model)",
     Temperature: {
