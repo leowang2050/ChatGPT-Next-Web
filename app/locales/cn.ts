@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "您未设置APIKEY，请点击左下角[设置](/#/settings)页输入API-key即可正常对话，获取APIKEY途经：\n\n1、关注公众号：[AI迈森](https://daili.chatgpt365.life/)，回复  apikey  ，将免费获取一个APIKEY\n\n卡顿或无响应？2、本站直接购买独享APIKEY，[点这里获取独立账号APIKEY](https://daili.chatgpt365.life/)",
+      "您未设置APIKEY，请点击[设置](/#/settings)在APIKEY一栏目中输入APIkey即可正常对话，获取APIKEY途经：\n\n1、关注公众号：[AI迈森](https://daili.chatgpt365.life/)，回复  apikey  ，将免费获取一个APIKEY\n\n卡顿或无响应？2、本站直接购买独享APIKEY，[点这里获取独立账号APIKEY](https://daili.chatgpt365.life/)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
