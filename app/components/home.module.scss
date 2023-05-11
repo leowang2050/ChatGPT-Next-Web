@@ -139,24 +139,28 @@
   animation: slide-in ease 0.3s;
 }
 .gptaccount a:link {
+  border-radius: 15px 5px;
 padding:4px;
 color:#FF0000;
 text-decoration: none;
 background-color: yellow;
 }
 .gptaccount a:visited {
+  border-radius: 15px 5px;
 padding:4px;
 color:#FF0000;
 text-decoration: none;
 background-color: yellow;
 }
 .gptaccount a:hover {
+  border-radius: 15px 5px;
 padding:4px;
 color:red;
 text-decoration: none;
 background-color: black;
 }
 .gptaccount a:active {
+  border-radius: 15px 5px;
 padding:4px;
 color:red;
 text-decoration: none;
