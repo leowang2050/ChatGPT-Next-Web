@@ -135,7 +135,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
+      SubTitle: "在右侧输入您的 API Key 即可对话",
       Placeholder: "OpenAI API Key",
     },
 
@@ -149,9 +149,9 @@ const cn = {
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
-      Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
-      Placeholder: "请输入访问密码",
+      Title: "管理员专用",
+      SubTitle: "管理员专用，无须使用",
+      Placeholder: "管理员专用，请勿使用",
     },
     Model: "模型 (model)",
     Temperature: {
