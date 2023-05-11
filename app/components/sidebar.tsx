@@ -124,7 +124,7 @@ export function SideBar(props: { className?: string }) {
            <p className={styles["gptaccount"]}><a href={REPO_URL} target="_blank">~API-KEY及ChatGPT账号购买~</a></p>
             <p>QQ交流群：466056349</p>
             <p>微信交流群：wuyoukaoba</p>
-          <p>![](/11.jpg)</p>
+            <p><img src="../icons/11.jpg" alt="微信交流群"></p>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
