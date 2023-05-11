@@ -138,7 +138,11 @@
   font-weight: bold;
   animation: slide-in ease 0.3s;
 }
-.gptaccount{ color:#FF0000;}
+.gptaccount a:link {
+color: red;
+text-decoration: none;
+background-color: yellow;
+}
 .sidebar-sub-title {
   font-size: 12px;
   font-weight: 400px;
