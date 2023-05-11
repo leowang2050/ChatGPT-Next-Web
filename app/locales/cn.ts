@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "您未设置API-KEY，请前往[设置](/#/settings)页输入正确的API-key，可在左上角购买 API KEY或者填入你自己已有的 OpenAI API Key，您也可关注公众号：AI迈森 回复：apikey 将免费获取一个APIKEY！",
+      "您未设置API-KEY，请前往[设置](/#/settings)页输入正确的API-key，可在左上角购买 API KEY或者填入你自己已有的 OpenAI API Key，您也可关注公众号：[AI迈森](/#/settings) 回复：apikey 将免费获取一个APIKEY！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
