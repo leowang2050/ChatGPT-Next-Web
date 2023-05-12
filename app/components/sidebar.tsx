@@ -118,7 +118,10 @@ export function SideBar(props: { className?: string }) {
         shouldNarrow && styles["narrow-sidebar"]
       }`}
     >
-        <div className={styles["sidebar-header-bar"]}>
+      
+      <div className={styles["sidebar-header"]}>
+        <div className={styles["sidebar-title"]}>ChatGPT中文在线</div>
+          <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -133,9 +136,6 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
       </div>
-
-      <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT中文在线</div>
         <div className={styles["sidebar-sub-title"]}>
            <p className={styles["gptaccount"]}><a href={REPO_URL} target="_blank">API-KEY及ChatGPT账号购买</a></p>
             <p>QQ交流群：466056349</p>
