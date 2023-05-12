@@ -135,10 +135,13 @@
 }
 
 .sidebar-title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   text-align:center;
   animation: slide-in ease 0.3s;
+}
+.gptaccount a{
+  font-size: 15px;
 }
 .gptaccount a:link {
   border-radius: 30px 30px;
