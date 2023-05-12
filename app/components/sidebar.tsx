@@ -123,7 +123,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
            <p className={styles["gptaccount"]}><a href={REPO_URL} target="_blank">API-KEY及ChatGPT账号购买</a></p>
             <p>QQ交流群：466056349</p>
-            <p>微信交流群：wuyoukaoba</p>
+            <p>ChatGPT微信机器人交流群</p>
             <p><img src="/11.jpg"/></p>
 
         </div>
