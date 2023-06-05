@@ -150,7 +150,7 @@ const cn = {
     },
     AccessCode: {
       Title: "VIP会员专用",
-      SubTitle: "联系站长升级VIP会员，微信：wuyoukaoba",
+      SubTitle: "联系站长升级VIP会员，微信：aibot114",
       Placeholder: "请输入VIP会员专用APIKEY",
     },
     Model: "模型 (model)",
